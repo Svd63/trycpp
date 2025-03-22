@@ -1,6 +1,6 @@
 env = Environment()
 
-env['ENV']['PATH'] = ['E:/Svd63/winlibs-i686-posix-dwarf-gcc-15.0.0-snapshot20240616-mingw-w64msvcrt-12.0.0-r1/bin']
+env['ENV']['PATH'] = ['E:/Svd63/TDM-GCC-64/bin']
 env['BUILDERS']['CustomCC'] = Builder(action='g++ -c -O2 -Wall -o$TARGET $SOURCE')
 env['BUILDERS']['CustomLINK'] = Builder(action='g++ -o$TARGET $SOURCE')
 
