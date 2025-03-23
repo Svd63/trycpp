@@ -1,3 +1,11 @@
+# -------------- my block -------------------------------
+# mkdir build & cd build & cmake -G "MinGW Makefiles" ..
+
+set(CMAKE_C_COMPILER "E:/Svd63/TDM-GCC-64/bin/gcc.exe")
+set(CMAKE_CXX_COMPILER "E:/Svd63/TDM-GCC-64/bin/g++.exe")
+
+# -------------------------------------------------------
+
 cmake_minimum_required(VERSION 3.10)
 
 # set the project name and version
