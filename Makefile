@@ -37,6 +37,12 @@ try1.exe:	try1.o
 try1.o: try1.cpp
 	$(CC) -c $(CFLAGS) -o$@ $<
 
+try2.exe:	try2.o
+	$(LINK) $(LDFLAGS) -o$@ $<
+
+try2.o: try2.cpp
+	$(CC) -c $(CFLAGS) -o$@ $<
+
 tryFile.exe:	tryFile.o
 	$(LINK) $(LDFLAGS) -o$@ $<
 
