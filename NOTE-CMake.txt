@@ -1,0 +1,15 @@
+mkdir build
+cd build
+cmake -G "MinGW Makefiles" ..
+
+In CMakeLists.txt put this before anything
+==========================================
+set(CMAKE_C_COMPILER "E:/Svd63/TDM-GCC-64/bin/gcc.exe")
+set(CMAKE_CXX_COMPILER "E:/Svd63/TDM-GCC-64/bin/g++.exe")
+
+
+Or may set ENV variables
+========================
+"CMAKE_C_COMPILER": "E:/Svd63/TDM-GCC-64/bin/gcc.exe",
+"CMAKE_CXX_COMPILER": "E:/Svd63/TDM-GCC-64/bin/g++.exe",
+
